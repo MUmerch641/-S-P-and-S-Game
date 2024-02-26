@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav> <h1>Rock Paper Scissors</h1> </nav>
+    </header>
+    <main>
+        <div class="img-container">
+            <div class="choice" id="rock">
+                <figure><img class="img"  src="rock.png" alt="img"></figure>
+                <figcaption style="color: rgb(163, 3, 30);">Rock</figcaption>
+            </div>
+            <div class="choice" id="paper">
+                <figure><img class="img" src="paper.png" alt="img"></figure>
+                <figcaption style="color: rgb(168, 8, 168)">Paper</figcaption>
+            </div>
+            <div class="choice" id="scissors">
+                <figure><img class="img" src="scissors.png" alt="img"></figure>
+                <figcaption style="color: blue;">Scissors</figcaption>
+            </div>
+        </div>
+        <div class="count-check">
+            <div class="you"><p id="userCount">0</p><p>You</p></div>
+            <div class="comp"><p id="computerCount">0</p><p>Computer</p></div>
+        </div>
+        <div class="btn"><button class="butn">Play Your move</button></div>
+        <div class="btn"><button class="reseBtn" id="widthbtn">Reset</button></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
